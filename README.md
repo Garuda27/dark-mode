@@ -69,7 +69,7 @@ const [storedValue, setStoredValue] = useState(() => {
 - Now, let's return `storedValue` from this hook in an array:
 
 ```js
-import { useState } from "react";
+import { useState } from "react"; 
 
 export const useLocalStorage = (key, initialValue) => {
   const [storedValue, setStoredValue] = useState(() => {
